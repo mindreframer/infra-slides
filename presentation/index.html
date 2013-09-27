@@ -146,19 +146,59 @@ $ sh/slides
 						<ul>
 							<li class="fragment">Ansible/Salt/Chef Knife+Chef Server/Puppet Server</li>
 							<li class="fragment">after working with them, I chose Salt</li>
+							<li class="fragment">it was the fastest :) </li>
 							<li class="fragment">just for the remote execution/state query part</li>
 							<li class="fragment">Provisioning still done by Chef-Solo</li>
+							<li class="fragment">Might rethink it later...</li>
 						</ul>
 					</p>
 				</section>
 
+				<section>
+					<h2>Orchestration</h2>
+					<p>
+						<ul>
+							<li class="fragment">Discovery over configuration</li>
+							<li class="fragment">Coordination service for distributed applications</li>
+							<li class="fragment">Zookeeper/Doozerd/Etcd</li>
+							<li class="fragment"><a href="http://devo.ps/blog/2013/09/11/zookeeper-vs-doozer-vs-etcd.html">ZooKeeper vs. Doozer vs. Etcd on devo.ps</a></li>
+							<li class="fragment">Etcd looks really good - security</li>
+							<li class="fragment">Need to implement a small prototype and test some scenarios</li>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>Orchestration - Ironfan</h2>
+					<p>
+						<ul>
+							<li class="fragment">Just found out Ironfan from Infochimps!</li>
+							<li class="fragment">https://github.com/infochimps-labs/ironfan</li>
+							<li class="fragment">Looks very complex, but might be interesting</li>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>Simple Tools</h2>
+					<p>
+						<ul>
+							<li class="fragment">started mpx-cli</li>
+							<li class="fragment">CLI tool for AWS with local caching (in Sqlite3)</li>
+							<li class="fragment">Simple/fast</li>
+							<li class="fragment">$ mpx-cli ec2 list</li>
+							<li class="fragment">$ mpx-cli ec2 refresh</li>
+							<li class="fragment">$ mpx-cli ami list</li>
+							<li class="fragment">$ mpx-cli ami refresh</li>
+							<li class="fragment">$ mpx-cli login (server-name/instance_id)</li>
+						</ul>
+					</p>
+				</section>
 
 				<section>
 					<h1>THE END</h1>
 					<h3>Questions?</h3>
 				</section>
-
-
 
 			</div>
 		</div>

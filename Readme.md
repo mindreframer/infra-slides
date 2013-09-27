@@ -3,7 +3,8 @@
     $ cd infra-slides
     $ sh/slides
 
-# Important aspects:
+# What is this
+    A presentation about a possible approach to build robust architectures in the Cloud.
 
 ## Books:
 
